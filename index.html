@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kopi Halu — Satu Botol, Banyak Cerita | UMKM Kopi Botolan</title>
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="images/logo.png">
+
+  <!-- Google Fonts: Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- File CSS Utama -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ========================================================================
+       1. NAVBAR (Logo, Home, Produk, Tentang, Kontak)
+       ======================================================================== -->
+  <header class="navbar">
+    <div class="container navbar-container">
+      <!-- Logo Brand -->
+      <a href="#home" class="logo">
+        <img src="images/logo.png" alt="Logo Kopi Halu">
+        <span>KOPI HALU</span>
+      </a>
+
+      <!-- Menu Navigasi Desktop -->
+      <nav class="nav-links" id="nav-links">
+        <a href="#home" class="nav-item">Home</a>
+        <a href="#tentang" class="nav-item">Tentang</a>
+        <a href="#produk" class="nav-item">Produk</a>
+        <a href="#keunggulan" class="nav-item">Keunggulan</a>
+        <a href="#testimoni" class="nav-item">Testimoni</a>
+        <a href="#kontak" class="nav-item">Kontak</a>
+      </nav>
+
+      <!-- Tombol CTA Pesan Navbar -->
+      <a href="https://wa.me/6288976805410?text=Halo%20Kopi%20Halu%2C%20saya%20ingin%20memesan%20kopi." target="_blank" class="btn btn-nav">
+        <i class="fa-brands fa-whatsapp"></i> Pesan
+      </a>
+
+      <!-- Tombol Hamburger (Khusus Layar HP / Mobile) -->
+      <button class="hamburger" id="hamburger-btn" aria-label="Buka Menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+  </header>
+
+
+  <!-- ========================================================================
+       2. HERO SECTION (Banner, slogan, tombol CTA)
+       ======================================================================== -->
+  <section class="hero" id="home">
+    <div class="container hero-container">
+      <!-- Teks & Slogan Hero -->
+      <div class="hero-text">
+        <span class="badge-subtitle">UMKM Kopi Botolan Siap Minum</span>
+        <h1>Satu Botol, Banyak Cerita</h1>
+        <p class="hero-slogan">"Secangkir halu, sejuta rasa."</p>
+        <p class="hero-desc">
+          Nikmati racikan kopi botolan berkualitas dengan cita rasa nikmat dan praktis. Diracik segar setiap hari untuk menemani setiap aktivitas belajarmu, kerjamu, dan waktu santaimu.
+        </p>
+        <div class="hero-buttons">
+          <a href="#produk" class="btn btn-primary">
+            <i class="fa-solid fa-mug-saucer"></i> Lihat Menu Kopi
+          </a>
+          <a href="https://wa.me/6288976805410?text=Halo%20Kopi%20Halu%2C%20saya%20mau%20order%20kopi%20sekarang." target="_blank" class="btn btn-secondary">
+            <i class="fa-brands fa-whatsapp"></i> Pesan via WhatsApp
+          </a>
+        </div>
+      </div>
+
+      <!-- Banner / Gambar Hero -->
+      <div class="hero-image">
+        <img src="images/hero-coffee.jpg" alt="Banner Kopi Halu Botolan">
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ========================================================================
+       3. TENTANG KAMI (Profil dan sejarah UMKM)
+       ======================================================================== -->
+  <section class="section section-about" id="tentang">
+    <div class="container">
+      <div class="about-container">
+        <!-- Foto Profil UMKM -->
+        <div class="about-image">
+          <img src="images/about-coffee.jpg" alt="Tentang UMKM Kopi Halu">
+        </div>
+
+        <!-- Profil & Sejarah Singkat -->
+        <div class="about-text">
+          <span class="section-tag">Profil Usaha</span>
+          <h2>Tentang Kopi Halu</h2>
+          <p>
+            <strong>Kopi Halu</strong> adalah usaha mikro, kecil, dan menengah (UMKM) lokal yang berfokus pada penyajian minuman kopi botolan siap minum (ready-to-drink) berukuran 250ml.
+          </p>
+          <p>
+            <strong>Sejarah Singkat:</strong> Berawal dari kecintaan terhadap kopi dan melihat kebutuhan mahasiswa serta pekerja yang menginginkan kopi nikmat tanpa harus antre lama di kedai, Kopi Halu dirintis dengan komitmen menghadirkan rasa kopi berkualitas premium dengan harga yang bersahabat di kantong.
+          </p>
+          
+          <div class="about-points">
+            <div class="about-point-card">
+              <h4><i class="fa-solid fa-bullseye"></i> Visi Kami</h4>
+              <p>Menjadi pilihan utama kopi botolan lokal yang terpercaya, higienis, dan terjangkau bagi semua penikmat kopi.</p>
+            </div>
+            <div class="about-point-card">
+              <h4><i class="fa-solid fa-heart"></i> Misi Kami</h4>
+              <p>Menggunakan bahan baku bermutu, menjaga kebersihan produksi, serta melayani pemesanan pelanggan dengan cepat dan ramah.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ========================================================================
+       4. PRODUK / JASA (Minimal 6 produk beserta gambar)
+       ======================================================================== -->
+  <section class="section" id="produk">
+    <div class="container">
+      <div class="section-title">
+        <span class="section-tag">Daftar Menu</span>
+        <h2>Menu Produk Kopi Halu</h2>
+        <p>Pilihan varian minuman botol 250ml siap minum favorit pelanggan kami.</p>
+      </div>
+
+      <!-- Grid 6 Produk -->
+      <div class="product-grid">
+
+        <!-- Produk 1: Kopi Halu (Susu Aren) -->
+        <div class="product-card">
+          <div class="product-badge">Best Seller</div>
+          <img src="images/product1.jpg" alt="Kopi Halu Susu Aren" class="product-img">
+          <div class="product-info">
+            <h3>Kopi Halu (Susu Aren)</h3>
+            <p class="product-desc">Perpaduan espresso mantap, susu lembut creamy, dan manis alami dari gula aren pilihan.</p>
+            <div class="product-price">Rp 15.000</div>
+            <a href="https://wa.me/6288976805410?text=Halo%20Kopi%20Halu%2C%20saya%20pesan%20Kopi%20Halu%20(Susu%20Aren)%20Rp15.000" target="_blank" class="btn btn-order">
+              <i class="fa-brands fa-whatsapp"></i> Pesan
+            </a>
+          </div>
+        </div>
+
+        <!-- Produk 2: Kopi Halu Pandan -->
+        <div class="product-card">
+          <div class="product-badge">Favorit</div>
+          <img src="images/product2.jpg" alt="Kopi Halu Pandan" class="product-img">
+          <div class="product-info">
+            <h3>Kopi Halu Pandan</h3>
+            <p class="product-desc">Kopi susu creamy yang berpadu dengan aroma wangi dan lembut dari pandan alami yang menyegarkan.</p>
+            <div class="product-price">Rp 17.000</div>
+            <a href="https://wa.me/6288976805410?text=Halo%20Kopi%20Halu%2C%20saya%20pesan%20Kopi%20Halu%20Pandan%20Rp17.000" target="_blank" class="btn btn-order">
+              <i class="fa-brands fa-whatsapp"></i> Pesan
+            </a>
+          </div>
+        </div>
+
+        <!-- Produk 3: Kopi Hazelnut -->
+        <div class="product-card">
+          <img src="images/product3.jpg" alt="Kopi Hazelnut" class="product-img">
+          <div class="product-info">
+            <h3>Kopi Hazelnut</h3>
+            <p class="product-desc">Kopi susu dengan sentuhan aroma kacang hazelnut panggang yang gurih, wangi, dan elegan.</p>
+            <div class="product-price">Rp 17.000</div>
+            <a href="https://wa.me/6288976805410?text=Halo%20Kopi%20Halu%2C%20saya%20pesan%20Kopi%20Hazelnut%20Rp17.000" target="_blank" class="btn btn-order">
+              <i class="fa-brands fa-whatsapp"></i> Pesan
+            </a>
+          </div>
+        </div>
+
+        <!-- Produk 4: Kopi Americano -->
+        <div class="product-card">
+          <img src="images/product4.jpg" alt="Kopi Americano" class="product-img">
+          <div class="product-info">
+            <h3>Kopi Americano</h3>
+            <p class="product-desc">Kopi hitam pekat segar tanpa gula dengan rasa pahit mantap yang siap mendongkrak semangatmu.</p>
+            <div class="product-price">Rp 13.000</div>
+            <a href="https://wa.me/6288976805410?text=Halo%20Kopi%20Halu%2C%20saya%20pesan%20Kopi%20Americano%20Rp13.000" target="_blank" class="btn btn-order">
+              <i class="fa-brands fa-whatsapp"></i> Pesan
+            </a>
+          </div>
+        </div>
+
+        <!-- Produk 5: Matcha Latte -->
+        <div class="product-card">
+          <div class="product-badge">Non Kopi</div>
+          <img src="images/product5.jpg" alt="Matcha Latte" class="product-img">
+          <div class="product-info">
+            <h3>Matcha Latte</h3>
+            <p class="product-desc">Varian segar non-kopi dari teh hijau matcha berkualitas dipadu dengan susu manis dan lembut.</p>
+            <div class="product-price">Rp 17.000</div>
+            <a href="https://wa.me/6288976805410?text=Halo%20Kopi%20Halu%2C%20saya%20pesan%20Matcha%20Latte%20Rp17.000" target="_blank" class="btn btn-order">
+              <i class="fa-brands fa-whatsapp"></i> Pesan
+            </a>
+          </div>
+        </div>
+
+        <!-- Produk 6: Kopi Halu Extra Shot -->
+        <div class="product-card">
+          <img src="images/product6.jpg" alt="Kopi Halu Extra Shot" class="product-img">
+          <div class="product-info">
+            <h3>Kopi Halu Extra Shot</h3>
+            <p class="product-desc">Racikan kopi susu aren dengan tambahan 1 shot espresso ekstra (+3k) untuk rasa yang lebih kuat dan pekat.</p>
+            <div class="product-price">Rp 18.000</div>
+            <a href="https://wa.me/6288976805410?text=Halo%20Kopi%20Halu%2C%20saya%20pesan%20Kopi%20Halu%20Extra%20Shot%20Rp18.000" target="_blank" class="btn btn-order">
+              <i class="fa-brands fa-whatsapp"></i> Pesan
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ========================================================================
+       5. KEUNGGULAN (Alasan memilih produk)
+       ======================================================================== -->
+  <section class="section section-keunggulan" id="keunggulan">
+    <div class="container">
+      <div class="section-title">
+        <span class="section-tag">Kenapa Kami?</span>
+        <h2>Keunggulan Kopi Halu</h2>
+        <p>Alasan utama mengapa Kopi Halu menjadi teman ngopi favorit banyak pelanggan.</p>
+      </div>
+
+      <div class="keunggulan-grid">
+        <!-- Keunggulan 1 -->
+        <div class="keunggulan-card">
+          <div class="keunggulan-icon">
+            <i class="fa-solid fa-seedling"></i>
+          </div>
+          <h3>1. Biji Kopi Pilihan</h3>
+          <p>Dibuat dari biji kopi berkualitas tinggi untuk menghasilkan cita rasa kopi yang nikmat dan harum khas.</p>
+        </div>
+
+        <!-- Keunggulan 2 -->
+        <div class="keunggulan-card">
+          <div class="keunggulan-icon">
+            <i class="fa-solid fa-temperature-arrow-down"></i>
+          </div>
+          <h3>2. Diracik Segar (Freshly Made)</h3>
+          <p>Disiapkan dan diracik secara segar tanpa tambahan bahan pengawet buatan yang berbahaya.</p>
+        </div>
+
+        <!-- Keunggulan 3 -->
+        <div class="keunggulan-card">
+          <div class="keunggulan-icon">
+            <i class="fa-solid fa-bottle-water"></i>
+          </div>
+          <h3>3. Kemasan Praktis & Higienis</h3>
+          <p>Botol 250ml yang kedap udara, anti-tumpah, higienis, serta sangat praktis dibawa kemana saja.</p>
+        </div>
+
+        <!-- Keunggulan 4 -->
+        <div class="keunggulan-card">
+          <div class="keunggulan-icon">
+            <i class="fa-solid fa-tags"></i>
+          </div>
+          <h3>4. Harga Sangat Terjangkau</h3>
+          <p>Kualitas rasa kopi setara kedai kopi modern dengan harga ramah kantong mulai dari Rp 13.000 saja.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ========================================================================
+       6. TESTIMONI (Minimal 3 testimoni pelanggan)
+       ======================================================================== -->
+  <section class="section" id="testimoni">
+    <div class="container">
+      <div class="section-title">
+        <span class="section-tag">Ulasan Pembeli</span>
+        <h2>Testimoni Pelanggan</h2>
+        <p>Pendapat jujur dari para penikmat setia botol Kopi Halu.</p>
+      </div>
+
+      <div class="testimoni-grid">
+        <!-- Testimoni 1 -->
+        <div class="testimoni-card">
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <p class="testimoni-text">
+            "Kopi Susu Aren-nya pas banget di lidah! Manisnya pas, kopinya tetap berasa nendang. Praktis banget dibawa ke kampus buat nemenin ngerjain tugas."
+          </p>
+          <div class="testimoni-user">
+            <div class="user-avatar">DA</div>
+            <div>
+              <h4>Dimas Arya</h4>
+              <span>Mahasiswa</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testimoni 2 -->
+        <div class="testimoni-card">
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <p class="testimoni-text">
+            "Matcha Latte dan Kopi Pandan-nya juara! Kemasan botolnya rapi, higienis, gampang masuk ke tote bag kantor. Rasanya nggak kalah sama kafe mahal."
+          </p>
+          <div class="testimoni-user">
+            <div class="user-avatar avatar-2">SN</div>
+            <div>
+              <h4>Sarah Nabilah</h4>
+              <span>Creative Designer</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testimoni 3 -->
+        <div class="testimoni-card">
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <p class="testimoni-text">
+            "Americano dinginnya segar banget, rasa pahitnya bersih dan pas buat bikin fokus kerja seharian. Harganya cuma 13 ribu, sangat recommended!"
+          </p>
+          <div class="testimoni-user">
+            <div class="user-avatar avatar-3">RF</div>
+            <div>
+              <h4>Rizky Fauzi</h4>
+              <span>Software Engineer</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ========================================================================
+       7. KONTAK (Alamat, WhatsApp, Instagram, lokasi)
+       ======================================================================== -->
+  <section class="section section-kontak" id="kontak">
+    <div class="container">
+      <div class="section-title">
+        <span class="section-tag">Hubungi Kami</span>
+        <h2>Kontak & Lokasi</h2>
+        <p>Silakan hubungi kami untuk informasi pemesanan atau kunjungi lokasi kami.</p>
+      </div>
+
+      <div class="kontak-container">
+        <!-- Informasi Kontak (Alamat, WA, IG, Lokasi) -->
+        <div class="kontak-info">
+          <!-- Alamat -->
+          <div class="info-card">
+            <i class="fa-solid fa-location-dot"></i>
+            <div>
+              <h4>Alamat Outlet</h4>
+              <p>Jl. Taman Kutabumi No.16 Blok D12, Kutabumi, Pasar Kemis, Kabupaten Tangerang, Banten 15560</p>
+            </div>
+          </div>
+
+          <!-- WhatsApp -->
+          <div class="info-card">
+            <i class="fa-brands fa-whatsapp"></i>
+            <div>
+              <h4>WhatsApp</h4>
+              <p>+6288976805410</p>
+              <a href="https://wa.me/6288976805410" target="_blank" class="link-action">Klik untuk Chat WhatsApp</a>
+            </div>
+          </div>
+
+          <!-- Instagram -->
+          <div class="info-card">
+            <i class="fa-brands fa-instagram"></i>
+            <div>
+              <h4>Instagram</h4>
+              <p>@kopihalu20</p>
+              <a href="https://www.instagram.com/kopihalu20" target="_blank" class="link-action">Kunjungi Instagram Resmi</a>
+            </div>
+          </div>
+
+          <!-- Jam Buka -->
+          <div class="info-card">
+            <i class="fa-solid fa-clock"></i>
+            <div>
+              <h4>Jam Operasional</h4>
+              <p>Senin - Sabtu: 09.00 - 21.00 WIB<br>Minggu: 10.00 - 18.00 WIB</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Peta Lokasi -->
+        <div class="kontak-map">
+          <h4><i class="fa-solid fa-map-location-dot"></i> Peta Lokasi</h4>
+          
+          <!-- Iframe Peta Interaktif dengan Titik Pin Lokasi Otentik Kopi Halu -->
+          <iframe 
+            src="https://www.openstreetmap.org/export/embed.html?bbox=106.5617%2C-6.1588%2C106.5737%2C-6.1508&amp;layer=mapnik&amp;marker=-6.1547929%2C106.5677196"
+            title="Peta Titik Lokasi Kopi Halu"
+            loading="lazy">
+          </iframe>
+
+          <!-- Keterangan Titik Pin Lokasi -->
+          <div class="map-location-tag">
+            <i class="fa-solid fa-location-dot"></i>
+            <span><strong>Titik Lokasi:</strong> Outlet Kopi Halu, Kutabumi, Tangerang</span>
+          </div>
+
+          <!-- Tombol Akses Rute Resmi Google Maps -->
+          <a href="https://maps.app.goo.gl/3QYKChvKbavzUDgu9" target="_blank" class="btn btn-secondary btn-maps">
+            <i class="fa-solid fa-diamond-turn-right"></i> Buka Rute di Google Maps
+          </a>
+        </div>
+      </div>
+
+      <!-- Form Pesan Cepat via WhatsApp Sederhana -->
+      <div class="order-box">
+        <h3>Formulir Pemesanan Cepat</h3>
+        <p>Isi formulir di bawah ini untuk mengirim pesanan langsung ke WhatsApp admin:</p>
+
+        <form id="simple-order-form">
+          <div class="form-grid">
+            <div class="form-group">
+              <label for="buyer-name">Nama Pemesan:</label>
+              <input type="text" id="buyer-name" placeholder="Contoh: Budi Santoso" required>
+            </div>
+
+            <div class="form-group">
+              <label for="buyer-menu">Pilihan Menu:</label>
+              <select id="buyer-menu" required>
+                <option value="Kopi Halu (Susu Aren) - Rp 15.000">Kopi Halu (Susu Aren) — Rp 15.000</option>
+                <option value="Kopi Halu Pandan - Rp 17.000">Kopi Halu Pandan — Rp 17.000</option>
+                <option value="Kopi Hazelnut - Rp 17.000">Kopi Hazelnut — Rp 17.000</option>
+                <option value="Kopi Americano - Rp 13.000">Kopi Americano — Rp 13.000</option>
+                <option value="Matcha Latte - Rp 17.000">Matcha Latte — Rp 17.000</option>
+                <option value="Kopi Halu Extra Shot - Rp 18.000">Kopi Halu Extra Shot — Rp 18.000</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="buyer-qty">Jumlah Botol:</label>
+              <input type="number" id="buyer-qty" value="1" min="1" max="50" required>
+            </div>
+
+            <div class="form-group">
+              <label for="buyer-notes">Catatan Tambahan (Opsional):</label>
+              <input type="text" id="buyer-notes" placeholder="Contoh: Less ice / manis sedang">
+            </div>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-submit">
+            <i class="fa-brands fa-whatsapp"></i> Kirim Pesanan ke WhatsApp
+          </button>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ========================================================================
+       FOOTER (Hak Cipta & Penutup)
+       ======================================================================== -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>© 2026 <strong>KOPI HALU</strong> — Satu Botol, Banyak Cerita.</p>
+      <p class="footer-sub">Website Tugas Kelompok Pemrograman Web.</p>
+    </div>
+  </footer>
+
+  <!-- File JavaScript Sederhana -->
+  <script src="script.js"></script>
+</body>
+</html>
